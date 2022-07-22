@@ -25,12 +25,17 @@
 # git branch -d {branch_name} : Xóa branch
 
 ## Kết hợp GIT với GITHUB
-- Từ local repo đẩy lên remote : Nếu đẩy như thế này thì tên của repo trên GITHUB phải trùng với tên dự án ở local máy tính của bạn
+> TH1: Đẩy từ local repo đẩy lên remote : Nếu đẩy như thế này thì tên của repo trên GITHUB phải trùng với tên dự án ở local máy tính của bạn
 # git push : đẩy local repo lên remote repo
     git push {url_name} {branch_now}
-Cách tạo alias : 
+# Cách tạo alias : 
     git remote add {alias_name} {url_name}
    Cách dùng : git push {alias_name} {branch_now}
--
+
+> TH2 : Kéo dự án từ remote repo trên github về máy tính của chúng ta
+# git clone {url_name} : tạo 1 dự án kéo từ trên remote về máy tính của chúng ta tại thư mục đang đứng
+
+## code . : khởi chạy dự án hiện tại lên vs
+
 
 
