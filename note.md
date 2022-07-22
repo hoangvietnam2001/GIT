@@ -50,5 +50,9 @@
 
 ## Nếu muốn merge, kết hợp các branch khác với master thì làm ntn ??
 
-# git pull
+# git pull : gộp lại các branch
+
+## Hiện tại git đang theo dõi tất cả các file của chúng ra vậy nếu muốn git không muốn theo dõi 1 file nào đó thì làm sao ? DÙNG git ignore
+
+# git ignore : loại bỏ theo dõi của git với file mong muốn của chúng ta
 
