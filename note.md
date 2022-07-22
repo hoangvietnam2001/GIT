@@ -1,8 +1,12 @@
 # Terms
 
-Repository (Repo)
-- Thư mục dự án của chúng ta
-
+    * Repository (Repo)
+        - Thư mục dự án của chúng ta
+    * Branch ( cành )
+        - 1 dự án có nhiều cành khác nhau (cành mặc định là master)
+    * Confilct ( Xung đột )
+    * Local
+    * Remote
 # Commands
 
 # git init : biến dự án thành 1 repo (dự án có thể dùng git)
@@ -19,5 +23,14 @@ Repository (Repo)
 # git checkout -b {branch_name} : tạo 1 branch mới
 # git merge {branch_name} : Tổng hợp các branch lại với nhau
 # git branch -d {branch_name} : Xóa branch
+
+## Kết hợp GIT với GITHUB
+- Từ local repo đẩy lên remote : Nếu đẩy như thế này thì tên của repo trên GITHUB phải trùng với tên dự án ở local máy tính của bạn
+# git push : đẩy local repo lên remote repo
+    git push {url_name} {branch_now}
+Cách tạo alias : 
+    git remote add {alias_name} {url_name}
+   Cách dùng : git push {alias_name} {branch_now}
+-
 
 
