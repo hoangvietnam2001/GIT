@@ -37,5 +37,18 @@
 
 ## code . : khởi chạy dự án hiện tại lên vs
 
+- Khi thay đổi dự án đã clone về local mà muốn đẩy lại github thì chỉ việc 'git push' thôi chứ không cần 'git push {url_name} {branch_now}' 
+## Sẽ có TH tạo ra 1 branch ở local, làm sao đẩy local branch này lên remote repo ?
 
+    1. git checkout -b {branch_name}
+    2. git push -s {alias_name} {branch_name}
+
+## Ngược lại muốn kéo 1 branch trên remote repo về local thì làm ntn ?
+
+    1. git fetch {alias_name}
+    2. git checkout -b {remote_branch_name}{alias_name}/{remote_branch_name}
+
+## Nếu muốn merge, kết hợp các branch khác với master thì làm ntn ??
+
+# git pull
 
