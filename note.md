@@ -54,5 +54,5 @@
 
 ## Hiện tại git đang theo dõi tất cả các file của chúng ra vậy nếu muốn git không muốn theo dõi 1 file nào đó thì làm sao ? DÙNG git ignore
 
-# git ignore : loại bỏ theo dõi của git với file mong muốn của chúng ta
+# git ignore : loại bỏ theo dõi của git với file mong muốn của chúng ta (Chỉ cần gán tên file vào trong file .gitignore thì file đó sẽ ko bị git theo dõi)
 
